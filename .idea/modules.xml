@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EX1A/EX1A.iml" filepath="$PROJECT_DIR$/EX1A/EX1A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" filepath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" />
+    </modules>
+  </component>
+</project>
