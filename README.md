@@ -2,7 +2,9 @@
 All of my assignments for Fall 2025 For my Java/C++/C# class
 
 # Exercize 1A: Gregorian / Julian Date translator
+These methods allows for future use of a more streamlined dating system for computers, along with translating it back into an easier to understand dating system for humans. This code also allows you to generally get more information about a date in the Gregorian system.
 
+In the Gregorian calander it may be 2025 September 10, however in the Julian calandar that would be 2460929. One's easier to read and remember, while the other is easier for computers to interpret.
 - Added ability to translate dates
 - Added constructor and comparison functions
     - Constructor:

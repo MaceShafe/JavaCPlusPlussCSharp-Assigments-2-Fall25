@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1A location change">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1A/UnitTests/domain/GDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1A/src/domain/GDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1A/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1A Documentation Complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,9 @@
     &quot;accountId&quot;: &quot;c5d310b2-523f-47f9-bd12-23f534b37213&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -162,7 +160,7 @@
       <workItem from="1756583904367" duration="13716000" />
       <workItem from="1756753082596" duration="3025000" />
       <workItem from="1756758916074" duration="918000" />
-      <workItem from="1756760140899" duration="3222000" />
+      <workItem from="1756760140899" duration="6843000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -180,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756504846258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="EX1A completion">
+      <option name="closed" value="true" />
+      <created>1756763486281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756763486281</updated>
+    </task>
+    <task id="LOCAL-00004" summary="EX1A Documentation Complete">
+      <option name="closed" value="true" />
+      <created>1756763500251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756763500251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EX1A first commit" />
     <MESSAGE value="EX1A location change" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1A location change" />
+    <MESSAGE value="EX1A completion" />
+    <MESSAGE value="EX1A Documentation Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1A Documentation Complete" />
   </component>
 </project>
