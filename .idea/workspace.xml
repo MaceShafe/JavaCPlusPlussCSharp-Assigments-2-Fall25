@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1A Documentation Complete">
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1A Documentation Update">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B/EX1B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/domain/GDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B/test/domain/GDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +83,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\test" />
+      <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\domain" />
+      <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\src" />
       <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -105,7 +113,7 @@
       <module name="EX1A" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="test.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +128,7 @@
       <module name="EX1A" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="test.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +168,7 @@
       <workItem from="1756583904367" duration="13716000" />
       <workItem from="1756753082596" duration="3025000" />
       <workItem from="1756758916074" duration="918000" />
-      <workItem from="1756760140899" duration="6843000" />
+      <workItem from="1756760140899" duration="8927000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -194,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756763500251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="EX1A Documentation Update">
+      <option name="closed" value="true" />
+      <created>1757540788323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757540788323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +221,7 @@
     <MESSAGE value="EX1A location change" />
     <MESSAGE value="EX1A completion" />
     <MESSAGE value="EX1A Documentation Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1A Documentation Complete" />
+    <MESSAGE value="EX1A Documentation Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1A Documentation Update" />
   </component>
 </project>
