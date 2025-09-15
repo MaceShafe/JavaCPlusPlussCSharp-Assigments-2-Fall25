@@ -1,57 +1,48 @@
 package domain;
 
+import java.util.Arrays;
+
 public class Invoice {
     private int invoiceId;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
     private int status;
     private GDate invoiceDate;
-    private GDate dueDate;
-    private LineItem[] lineItems;
 
-    /**
-     *
-     * @param status
-     * @param invoiceDate
-     * @param dueDate
-     */
-    public Invoice(int status, GDate invoiceDate, GDate dueDate) {
-        // TODO - implement Invoice.Invoice
-        throw new UnsupportedOperationException();
+
+    public Invoice(int invoiceId, int status, GDate invoiceDate) {
+        this.invoiceId = invoiceId;
+        this.status = status;
+//        this.invoiceDate = invoiceDate;
+//        this.invoiceDate = new GDate(invoiceDate);
+        this.invoiceDate = invoiceDate.copy();
     }
 
-    /**
-     *
-     * @param invoice
-     */
-    public Invoice(Invoice invoice) {
-        // TODO - implement Invoice.Invoice
-        throw new UnsupportedOperationException();
+    public Invoice(int invoiceId, int status, int year, int month, int day) {
+        this.invoiceId = invoiceId;
+        this.status = status;
+//        this.invoiceDate = invoiceDate;
+//        this.invoiceDate = new GDate(invoiceDate);
+        this.invoiceDate = new GDate(year, month, day);
     }
 
-    public Invoice copy() {
-        // TODO - implement Invoice.copy
-        throw new UnsupportedOperationException();
-    }
 
-    /**
-     *
-     * @param lineItem
-     */
-    public void addLineItem(LineItem lineItem) {
-        // TODO - implement Invoice.addLineItem
-        throw new UnsupportedOperationException();
-    }
 
-    /**
-     *
-     * @param lineItemId
-     */
-    public LineItem removeLineItem(int lineItemId) {
-        // TODO - implement Invoice.removeLineItem
-        throw new UnsupportedOperationException();
-    }
-
-    public double total() {
-        // TODO - implement Invoice.total
-        throw new UnsupportedOperationException();
+    @Override
+    public String toString() {
+        return "Invoice{" +
+                "invoiceId=" + invoiceId +
+                ", status=" + status +
+                ", invoiceDate=" + invoiceDate +
+//                ", dueDate=" + dueDate +
+//                ", lineItems=" + Arrays.toString(lineItems) +
+                '}';
     }
 }

@@ -113,9 +113,7 @@ public class GDate {
      * @param days
      */
     public GDate add(int days) {
-//        return new GDate(this.julianDay + days);
-        this.julianDay += days;
-        return this;
+        return new GDate(this.julianDay + days);
     }
 
 
