@@ -1,5 +1,6 @@
 package domain;
 
+import javax.sound.sampled.Line;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -9,7 +10,7 @@ public class Invoice
     private int status;
     private GDate invoiceDate;
     private GDate dueDate;
-    private ArrayList<LineItem> lineItems;
+    private ArrayList<LineItem> lineItems = new ArrayList<LineItem>();
 
     /**
      *
@@ -22,8 +23,8 @@ public class Invoice
     public Invoice(int status, GDate invoiceDate, GDate dueDate) {
     this.invoiceId= DbContext.getNextInvoiceId();
     this.status= status;
-    this.invoiceDate = invoiceDate;
-    this.dueDate = dueDate;
+    this.invoiceDate = new GDate(invoiceDate);
+    this.dueDate = new GDate(dueDate);
     }
 
     /**
@@ -33,8 +34,8 @@ public class Invoice
     public Invoice(Invoice invoice) {
 this.invoiceId = invoice.invoiceId;
 this.status = invoice.status;
-this.invoiceDate = invoice.invoiceDate;
-this.dueDate = invoice.dueDate;
+this.invoiceDate = new GDate(invoice.invoiceDate);
+this.dueDate = new GDate (invoice.dueDate);
     }
 
     public Invoice copy() {
@@ -48,8 +49,7 @@ this.dueDate = invoice.dueDate;
      * @param lineItem
      */
     public void addLineItem(LineItem lineItem) {
-        // TODO - implement Invoice.addLineItem
-        throw new UnsupportedOperationException();
+        this.lineItems.add(lineItem);
     }
 
     /**
@@ -57,13 +57,37 @@ this.dueDate = invoice.dueDate;
      * @param lineItemId
      */
     public LineItem removeLineItem(int lineItemId) {
-        // TODO - implement Invoice.removeLineItem
-        throw new UnsupportedOperationException();
+        LineItem lineItem = null;
+        if (lineItemId >= 0 && lineItemId < this.lineItems.size())
+        {
+            lineItem = new LineItem(this.lineItems.get(lineItemId));
+            this.lineItems.remove(lineItemId);
+
+        }
+    return lineItem;
     }
 
+    public LineItem removeLineItem(LineItem lineItem) {
+        LineItem removedLineItem = null;
+        int index = lineItems.indexOf(lineItem);
+        if (index >= 0 && index < this.lineItems.size()) {
+            removedLineItem = new LineItem(this.lineItems.get(index));
+            this.lineItems.remove(index);
+        }
+        return removedLineItem;
+
+    }
+
+
     public double total() {
-        // TODO - implement Invoice.total
-        throw new UnsupportedOperationException();
+
+        double total = 0;
+        for (int i=0; i<lineItems.size(); i++) {
+        LineItem lineItem = this.lineItems.get(i);
+        double amount = lineItem.getAmount();
+        total += amount ;
+        }
+        return total;
     }
 
     public int getInvoiceId() {

@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B and EX1B1 Started">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B1 Copy Errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/EX1B1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/EX1B1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/GDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,7 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="EX1B1" />
@@ -188,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InvoiceTest" />
         <item itemvalue="JUnit.GDateTest" />
         <item itemvalue="JUnit.InvoiceTest.copy" />
         <item itemvalue="JUnit.LineItemTest" />
@@ -221,7 +216,9 @@
       <workItem from="1757710127261" duration="3991000" />
       <workItem from="1757911176978" duration="2051000" />
       <workItem from="1757971375251" duration="17932000" />
-      <workItem from="1758045061279" duration="11630000" />
+      <workItem from="1758045061279" duration="13058000" />
+      <workItem from="1758225202089" duration="10179000" />
+      <workItem from="1758303791834" duration="12018000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -271,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757913239480</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="EX1B1 Copy Errors">
+      <option name="closed" value="true" />
+      <created>1758059681379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758059681379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +289,7 @@
     <MESSAGE value="EX1A Documentation Complete" />
     <MESSAGE value="EX1A Documentation Update" />
     <MESSAGE value="EX1B and EX1B1 Started" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1B and EX1B1 Started" />
+    <MESSAGE value="EX1B1 Copy Errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1B1 Copy Errors" />
   </component>
 </project>

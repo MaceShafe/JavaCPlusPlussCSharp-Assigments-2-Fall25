@@ -39,4 +39,41 @@ class InvoiceTest {
         assertFalse(this.invoice1.getDueDate() == invoice2.getDueDate());
     }
 
+//    @Test
+//    void addLineItem() {
+//    }
+
+    @Test
+    void removeLineItem() {
+        LineItem lineItem1 = new LineItem(1.0, "description1");
+
+        // test Invoice.removeLineItem(int index)
+        this.invoice1.addLineItem(lineItem1);
+        LineItem removedLineItem = this.invoice1.removeLineItem(0);
+        assertEquals(lineItem1, removedLineItem);
+        assertFalse(lineItem1 == removedLineItem);
+        // test removing from empty ArrayList
+        removedLineItem = this.invoice1.removeLineItem(0);
+        assertEquals(null, removedLineItem);
+
+        // test Invoice.removeLineItem(LineItem lineItem)
+        this.invoice1.addLineItem(lineItem1);
+        removedLineItem = this.invoice1.removeLineItem(lineItem1);
+        assertEquals(lineItem1, removedLineItem);
+        assertFalse(lineItem1 == removedLineItem);
+        // test removing from empty ArrayList
+        removedLineItem = this.invoice1.removeLineItem(lineItem1);
+        assertEquals(null, removedLineItem);
+    }
+
+    @Test
+    void total() {
+        LineItem lineItem1 = new LineItem(5.0, "description1");
+        LineItem lineItem2 = new LineItem(2.0, "description1");
+        this.invoice1.addLineItem(lineItem1);
+        this.invoice1.addLineItem(lineItem2);
+        double total = this.invoice1.total();
+        assertEquals(7.0,total);
+
+    }
 }

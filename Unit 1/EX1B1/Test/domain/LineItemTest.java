@@ -42,4 +42,7 @@ class LineItemTest {
         LineItem lineItem2 = this.lineItem1.copy();
         assertTrue(lineItem1.equals(lineItem2));
     }
-    }
+
+
+
+}
