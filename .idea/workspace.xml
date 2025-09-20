@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B1 Copy Errors">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B FINISHED" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +212,7 @@
       <workItem from="1757971375251" duration="17932000" />
       <workItem from="1758045061279" duration="13058000" />
       <workItem from="1758225202089" duration="10179000" />
-      <workItem from="1758303791834" duration="12018000" />
+      <workItem from="1758303791834" duration="12041000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -276,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758059681379</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="EX1B FINISHED">
+      <option name="closed" value="true" />
+      <created>1758335830806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758335830806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +292,7 @@
     <MESSAGE value="EX1A Documentation Update" />
     <MESSAGE value="EX1B and EX1B1 Started" />
     <MESSAGE value="EX1B1 Copy Errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1B1 Copy Errors" />
+    <MESSAGE value="EX1B FINISHED" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1B FINISHED" />
   </component>
 </project>
