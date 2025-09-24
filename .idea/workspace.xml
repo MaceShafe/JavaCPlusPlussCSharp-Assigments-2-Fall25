@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B FINISHED" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1B FINISHED">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/EX1C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/GDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/GDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/LineItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +61,10 @@
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GDateTest (1).executor": "Run",
     "JUnit.GDateTest.executor": "Run",
     "JUnit.GDateTest.testYMDConstructor.executor": "Debug",
+    "JUnit.InvoiceTest (1).executor": "Run",
     "JUnit.InvoiceTest.copy.executor": "Run",
     "JUnit.InvoiceTest.copyConstructor.executor": "Debug",
     "JUnit.InvoiceTest.executor": "Run",
@@ -69,13 +83,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1",
+    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX1C/test/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX1B1/EX1B1/src/Main.java",
+    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -84,14 +98,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C\test\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C\src\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B2" />
       <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\test" />
       <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\domain" />
       <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B\src" />
-      <recent name="C:\Users\mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -99,8 +115,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="domain" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GDateTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="EX1B1" />
@@ -110,6 +129,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GDateTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX1C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.GDateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+    <configuration name="InvoiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX1C" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domain.*" />
@@ -144,24 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceTest.copy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.InvoiceTest" />
-      <option name="METHOD_NAME" value="copy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LineItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <module name="EX1C" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domain.*" />
@@ -177,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.InvoiceTest" />
+        <item itemvalue="JUnit.GDateTest (1)" />
         <item itemvalue="JUnit.GDateTest" />
-        <item itemvalue="JUnit.InvoiceTest.copy" />
         <item itemvalue="JUnit.LineItemTest" />
+        <item itemvalue="JUnit.InvoiceTest (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +231,8 @@
       <workItem from="1758045061279" duration="13058000" />
       <workItem from="1758225202089" duration="10179000" />
       <workItem from="1758303791834" duration="12041000" />
+      <workItem from="1758406745767" duration="339000" />
+      <workItem from="1758660425046" duration="5248000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -278,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758335830806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="EX1B FINISHED">
+      <option name="closed" value="true" />
+      <created>1758406921664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758406921664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
