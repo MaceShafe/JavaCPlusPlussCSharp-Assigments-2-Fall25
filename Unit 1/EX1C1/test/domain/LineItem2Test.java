@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LineItemTest {
+class LineItem2Test {
 
         LineItem2 lineItem1;
 

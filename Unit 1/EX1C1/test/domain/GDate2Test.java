@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class GDateTest {
+class GDate2Test {
 
     private GDate2 date1;
 

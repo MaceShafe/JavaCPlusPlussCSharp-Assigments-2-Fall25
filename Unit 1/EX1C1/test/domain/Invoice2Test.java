@@ -3,9 +3,12 @@ package domain;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.ArrayList;
 
-class InvoiceTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+class Invoice2Test {
 
     Invoice2 invoice1;
 
@@ -16,6 +19,10 @@ class InvoiceTest {
 
     @Test
     void copyConstructor() {
+        //ex1c add lineitems
+        this.invoice1.addLineItem(new LineItem2(1.0, "description1"));
+        this.invoice1.addLineItem(new LineItem2(2.0, "description2"));
+        this.invoice1.addLineItem(new LineItem2(3.0, "description3"));
         Invoice2 invoice2 = new Invoice2(this.invoice1);
         assertEquals(this.invoice1.getInvoiceId(), invoice2.getInvoiceId());
         assertEquals(this.invoice1.getStatus(), invoice2.getStatus());
@@ -25,10 +32,28 @@ class InvoiceTest {
 //        assertNotEquals(this.invoice1.getDueDate(), invoice2.getDueDate());
         assertFalse(this.invoice1.getInvoiceDate() == invoice2.getInvoiceDate());
         assertFalse(this.invoice1.getDueDate() == invoice2.getDueDate());
+
+        // ex1c: test lineItems
+        ArrayList<LineItem2> lineItems1 = this.invoice1.getLineItems();
+        ArrayList<LineItem2> lineItems2 = invoice2.getLineItems();
+        assertEquals(lineItems1.size(), lineItems2.size());
+        int i = 0;
+        LineItem lineItem2 = null;
+        for (LineItem2 lineItem1 : lineItems1) {
+            lineItem2 = lineItems2.get(i);
+            assertEquals(lineItem1.getLineItemId(), lineItem2.getLineItemId());
+            assertEquals(lineItem1.getAmount(), lineItem2.getAmount());
+            assertEquals(lineItem1.getDescription(), lineItem2.getDescription());
+            assertFalse(lineItem1 == lineItem2);
+            i++;
+        }
     }
 
     @Test
     void copy() {
+        this.invoice1.addLineItem(new LineItem2(1.0, "description1"));
+        this.invoice1.addLineItem(new LineItem2(2.0, "description2"));
+        this.invoice1.addLineItem(new LineItem2(3.0, "description3"));
         Invoice2 invoice2 = this.invoice1.copy();
         assertEquals(this.invoice1.getInvoiceId(), invoice2.getInvoiceId());
         assertEquals(this.invoice1.getStatus(), invoice2.getStatus());
@@ -37,6 +62,21 @@ class InvoiceTest {
 //        assertNotEquals(this.invoice1.getDueDate(), invoice2.getDueDate());
         assertFalse(this.invoice1.getInvoiceDate() == invoice2.getInvoiceDate());
         assertFalse(this.invoice1.getDueDate() == invoice2.getDueDate());
+
+        // ex1c: test lineItems
+        ArrayList<LineItem> lineItems1 = this.invoice1.getLineItems();
+        ArrayList<LineItem> lineItems2 = invoice2.getLineItems();
+        assertEquals(lineItems1.size(), lineItems2.size());
+        int i = 0;
+        LineItem lineItem2 = null;
+        for (LineItem lineItem1 : lineItems1) {
+            lineItem2 = lineItems2.get(i);
+            assertEquals(lineItem1.getLineItemId(), lineItem2.getLineItemId());
+            assertEquals(lineItem1.getAmount(), lineItem2.getAmount());
+            assertEquals(lineItem1.getDescription(), lineItem2.getDescription());
+            assertFalse(lineItem1 == lineItem2);
+            i++;
+        }
     }
 
 //    @Test

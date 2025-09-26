@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C Began, error occurring">
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C removedg">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/DbContext2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/GDate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/Invoice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/LineItem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/ui/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/GDate2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/Invoice2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/LineItem2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaCPlusPlussCSharp-Assigments-2-Fall25.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/EX1B1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/GDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/domain/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C/src/domain/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/GDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/LineItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C/test/domain/LineItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/GDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +61,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GDate2Test.executor": "Debug",
     "JUnit.GDateTest (1).executor": "Run",
     "JUnit.GDateTest.executor": "Run",
     "JUnit.GDateTest.testYMDConstructor.executor": "Debug",
+    "JUnit.Invoice2Test.executor": "Run",
     "JUnit.InvoiceTest (1).executor": "Run",
     "JUnit.InvoiceTest.copy.executor": "Run",
     "JUnit.InvoiceTest.copyConstructor.executor": "Debug",
@@ -86,14 +90,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/out/production",
+    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX1C1/test/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C/src/Main.java",
-    "project.structure.last.edited": "SDKs",
+    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -104,20 +108,24 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C1\test\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C1\src\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\out\production" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C\test\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C\src\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B1" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B1\src\ui" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B1\src\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\out\production\EX1C" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1A\Unit1" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1B1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="domain" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="domain" />
@@ -126,10 +134,23 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceTest2">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Invoice2Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
-      <module name="EX1A" />
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.Main" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main2" />
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.*" />
@@ -140,11 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GDateTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX1C" />
+    <configuration name="GDate2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.GDate2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX1C1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.Invoice" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,7 +191,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Invoice2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +200,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.GDateTest" />
+      <option name="MAIN_CLASS_NAME" value="domain.Invoice2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,7 +210,7 @@
       <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="domain.Invoice" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,28 +221,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX1C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.LineItemTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="JavaCPlusPlussCSharp-Assigments-2-Fall25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceTest2" />
-        <item itemvalue="JUnit.GDateTest" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.Invoice2Test" />
+        <item itemvalue="JUnit.GDate2Test" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="JUnit.GDateTest (1)" />
-        <item itemvalue="JUnit.LineItemTest" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +359,10 @@
       <workItem from="1758406745767" duration="339000" />
       <workItem from="1758660425046" duration="5447000" />
       <workItem from="1758834835483" duration="2265000" />
-      <workItem from="1758839786949" duration="3034000" />
+      <workItem from="1758839786949" duration="3167000" />
+      <workItem from="1758843109310" duration="366000" />
+      <workItem from="1758843501312" duration="726000" />
+      <workItem from="1758844261599" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -323,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758675886624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="EX1C removedg">
+      <option name="closed" value="true" />
+      <created>1758843027627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758843027627</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +468,23 @@
     <MESSAGE value="EX1B1 Copy Errors" />
     <MESSAGE value="EX1B FINISHED" />
     <MESSAGE value="EX1C Began, error occurring" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1C Began, error occurring" />
+    <MESSAGE value="EX1C removedg" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1C removedg" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit 1/EX1A/Unit1/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit 1/EX1C1/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
