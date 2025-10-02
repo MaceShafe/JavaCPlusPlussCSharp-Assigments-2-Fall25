@@ -1,6 +1,6 @@
-package domain;
+package EX1B.domain;
 
-import EX1A.domain.GDate;
+import EX1B1.domain.GDate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

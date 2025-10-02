@@ -1,10 +1,12 @@
 package domain;
 
-import EX1A.domain.GDate;
+
+import EX1C1.domain.GDate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 
 class GDateTest {
 
