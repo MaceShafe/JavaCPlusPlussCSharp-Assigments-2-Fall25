@@ -1,5 +1,6 @@
 package EX1C1.ui;
 
+import EX1C1.domain.DbContext;
 import EX1C1.domain.GDate;
 import EX1C1.domain.Invoice;
 import EX1C1.domain.LineItem;
@@ -15,7 +16,8 @@ import java.util.ArrayList;
 
 public class InvoiceController {
 
-    public Button saveInvoiceButton;
+
+
     private ArrayList<Invoice> invoices = new ArrayList<Invoice>();
 
     @FXML
@@ -34,30 +36,22 @@ public class InvoiceController {
     public ListView lineItemsListView;
     @FXML
     private ComboBox invoicesComboBox;
+    @FXML
+    public TextField totalTextField;
+    @FXML
+    public Button saveInvoiceButton;
+    @FXML
+    public Button saveLineItemButton;
+    @FXML
+    public Button addLineItemButton;
+    @FXML
+    public Button deleteLineItemButton;
 
 
     public InvoiceController() {
 
+this.invoices= DbContext.getInvoices();
 
-    GDate date1 = new GDate(2019,9,1);
-    GDate date2 = new GDate(2019,9,11);
-
-    Invoice invoice1 = new Invoice(1, date1, date2);
-
-    invoice1.addLineItem(new LineItem(1.0, "description1"));
-    invoice1.addLineItem(new LineItem(2.0, "description2"));
-    invoice1.addLineItem(new LineItem(3.0, "description3"));
-    invoice1.addLineItem(new LineItem(4.0, "description4"));
-    this.invoices.add(invoice1);
-
-    Invoice invoice2 = new Invoice(2,
-            new GDate(2025,10,15),
-            new GDate(2025,11,1));
-        invoice2.addLineItem(new LineItem(5.0, "description1"));
-        invoice2.addLineItem(new LineItem(6.0, "description2"));
-        invoice2.addLineItem(new LineItem(7.0, "description3"));
-        invoice2.addLineItem(new LineItem(8.0, "description4"));
-    this.invoices.add(invoice2);
 }
 
 @FXML
@@ -79,6 +73,8 @@ public class InvoiceController {
         Invoice invoice = this.invoices.get(0);
         this.displayInvoice(invoice);
         this.displayLineItems(invoice);
+        this.displayInvoiceTotal(invoice);
+
 
     }
 private void displayLineItem(LineItem lineItem) {
@@ -89,10 +85,11 @@ private void displayLineItem(LineItem lineItem) {
 
     public void invoiceComboBoxItemSelected(ActionEvent actionEvent) {
         int comboIndex = invoicesComboBox.getSelectionModel().getSelectedIndex();
-
+        if (comboIndex < 0) return;
         Invoice invoice = this.invoices.get(comboIndex);
         this.displayInvoice(invoice);
         this.displayLineItems(invoice);
+        this.displayInvoiceTotal(invoice);
     }
 
     public void lineItemsListViewClicked(MouseEvent mouseEvent) {
@@ -110,6 +107,10 @@ private void displayLineItem(LineItem lineItem) {
         return lineItem;
     }
 
+    private void displayInvoiceTotal(Invoice invoice) {
+    double total = invoice.total();
+    this.totalTextField.setText(Double.toString(total));
+    }
 
     private void displayLineItems(Invoice invoice) {
         this.lineItemsListView.getItems().clear();
@@ -131,7 +132,6 @@ private void displayLineItem(LineItem lineItem) {
     public void saveInvoiceButtonClicked(ActionEvent actionEvent) {
         int comboIndex = invoicesComboBox.getSelectionModel().getSelectedIndex();
 
-
     Invoice invoice = invoices.get(comboIndex);
 
     invoice.setStatus(Integer.parseInt(statusTextField.getText()));
@@ -149,11 +149,75 @@ private void displayLineItem(LineItem lineItem) {
     invoice.setInvoiceDate(invoiceDate);
     invoice.setDueDate(dueDate);
 
+        invoicesComboBox.getItems().set(comboIndex, invoice.toShortString());
+        invoicesComboBox.getSelectionModel().select(comboIndex);
+
+//        this.invoicesComboBox.getItems().remove(comboIndex);
+//        this.invoicesComboBox.getItems().add(invoice);
+//        this.invoicesComboBox.getSelectionModel().select(invoice);
+
+    }
 
 
-        this.invoicesComboBox.getItems().remove(comboIndex);
-        this.invoicesComboBox.getItems().add(invoice.toShortString());
-        this.invoicesComboBox.getSelectionModel().select(invoice);
+
+    public void saveLineItemButtonClicked(ActionEvent actionEvent) {
+        int comboIndex =  invoicesComboBox.getSelectionModel().getSelectedIndex();
+        Invoice invoice = invoices.get(comboIndex);
+
+
+        int listIndex = lineItemsListView.getSelectionModel().getSelectedIndex();
+        invoice.removeLineItem(listIndex);
+
+        String description = descriptionTextField.getText();
+        Double amount = Double.parseDouble(amountTextField.getText());
+
+        LineItem lineItem = new LineItem(amount, description);
+        invoice.addLineItem(listIndex, lineItem);
+        displayInvoiceTotal(invoice);
+        lineItemsListView.getItems().remove(listIndex);
+        lineItemsListView.getItems().add(listIndex, lineItem.toString());
+        lineItemsListView.getSelectionModel().select(listIndex);
+
+
+    }
+
+    public void addLineItemButtonClicked(ActionEvent actionEvent) {
+        int comboIndex =  invoicesComboBox.getSelectionModel().getSelectedIndex();
+        Invoice invoice = invoices.get(comboIndex);
+
+        LineItem lineItem = new LineItem(0.0, "");
+        invoice.addLineItem(lineItem);
+
+        this.lineItemsListView.getItems().add(lineItem.toString());
+        this.lineItemsListView.getSelectionModel().selectLast();
+
+        this.lineItemsListView.scrollTo(lineItemsListView.getSelectionModel().getSelectedIndex());
+        displayLineItem(lineItem);
+        displayInvoiceTotal(invoice);
+        this.descriptionTextField.requestFocus();
+
+    }
+
+    public void deleteLineItemButtonClicked(ActionEvent actionEvent) {
+        this.amountTextField.clear();
+        this.descriptionTextField.clear();
+
+        int comboIndex =  invoicesComboBox.getSelectionModel().getSelectedIndex();
+        Invoice invoice = invoices.get(comboIndex);
+
+        if(this.lineItemsListView.getSelectionModel().getSelectedIndex() >= 0) {
+            invoice.removeLineItem(lineItemsListView.getSelectionModel().getSelectedIndex());
+            lineItemsListView.getItems().remove(lineItemsListView.getSelectionModel().getSelectedIndex());
+            lineItemsListView.getSelectionModel().selectLast();
+
+            if(lineItemsListView.getSelectionModel().getSelectedIndex() >= 0) {
+            this.lineItemsListView.scrollTo(lineItemsListView.getSelectionModel().getSelectedIndex());
+            displayLineItem(getSelectedLineItem());
+            }
+            displayInvoiceTotal(invoice);
+
+        }
+
 
     }
 }

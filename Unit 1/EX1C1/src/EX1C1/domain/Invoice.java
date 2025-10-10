@@ -56,6 +56,12 @@ this.dueDate = new GDate (invoice.dueDate);
         this.lineItems.add(lineItem);
     }
 
+    public void addLineItem(int index, LineItem lineItem) {
+        this.lineItems.add(index, new LineItem(lineItem));
+
+
+    }
+
     /**
      *
      * @param lineItemId
@@ -95,7 +101,11 @@ this.dueDate = new GDate (invoice.dueDate);
     }
 
     public LineItem getLineItem (int index) {
-        return this.lineItems.get(index);
+        LineItem lineItem = null;
+        if (index <this.lineItems.size()) {
+            lineItem = lineItems.get(index).copy();
+        }
+        return lineItem;
     };
 
     public ArrayList<LineItem> getLineItems() {

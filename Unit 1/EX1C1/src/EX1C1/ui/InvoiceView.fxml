@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
@@ -21,10 +22,12 @@
             <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <Label prefHeight="17.0" prefWidth="97.0" text="Invoice ID:" GridPane.rowIndex="1" />
-            <TextField fx:id="invoiceIdTextField" promptText="Invoice Id" GridPane.columnIndex="1" GridPane.rowIndex="1" disable="true"/>
+            <TextField fx:id="invoiceIdTextField" disable="true" promptText="Invoice Id" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label text="Status:" GridPane.rowIndex="2" />
             <TextField fx:id="statusTextField" promptText="Status" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Label text="Invoice Date:" GridPane.rowIndex="3" />
@@ -34,14 +37,23 @@
             <Label text="Select Invoice:" />
             <ComboBox fx:id="invoicesComboBox" onAction="#invoiceComboBoxItemSelected" prefHeight="25.0" prefWidth="375.0" GridPane.columnIndex="1" />
             <Label text="Select LineItem:" GridPane.rowIndex="6" />
-            <Label text="Description:" GridPane.rowIndex="7" />
-            <Label text="Amount" GridPane.rowIndex="8" />
-            <TextField fx:id="descriptionTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-            <TextField fx:id="amountTextField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label text="Description:" GridPane.rowIndex="8" />
+            <Label text="Amount" GridPane.rowIndex="9" />
+            <TextField fx:id="descriptionTextField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField fx:id="amountTextField" GridPane.columnIndex="1" GridPane.rowIndex="9" />
             <ListView fx:id="lineItemsListView" onMouseClicked="#lineItemsListViewClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <Button mnemonicParsing="false" text="+" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <Button mnemonicParsing="false" text="-" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="addLineItemButton" minWidth="26.0" mnemonicParsing="false" onAction="#addLineItemButtonClicked" text="+" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="4.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="deleteLineItemButton" minWidth="26.0" mnemonicParsing="false" onAction="#deleteLineItemButtonClicked" text="-" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="4.0" top="15.0" />
+               </GridPane.margin></Button>
             <Button fx:id="saveInvoiceButton" mnemonicParsing="false" onAction="#saveInvoiceButtonClicked" text="Save Invoice" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="saveLineItemButton" mnemonicParsing="false" onAction="#saveLineItemButtonClicked" text="Save Line Item" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label text="Total:" GridPane.rowIndex="7" />
+            <TextField fx:id="totalTextField" disable="true" promptText="Total" GridPane.columnIndex="1" GridPane.rowIndex="7" />
          </children>
       </GridPane>
    </children>

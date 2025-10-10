@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C Progress">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/EX1C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B/EX1B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B/EX1B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/EX1C1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/EX1C1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/GDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/GDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/DbContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.InvoiceApplication.executor": "Debug",
+    "Application.InvoiceApplication.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
@@ -385,7 +372,8 @@
       <workItem from="1759863893268" duration="3220000" />
       <workItem from="1759871131497" duration="12608000" />
       <workItem from="1759959843029" duration="4544000" />
-      <workItem from="1760039577879" duration="15810000" />
+      <workItem from="1760039577879" duration="25832000" />
+      <workItem from="1760121968002" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -483,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759443430789</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="EX1C Progress">
+      <option name="closed" value="true" />
+      <created>1760060490684</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760060490684</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,11 +523,6 @@
           <url>file://$PROJECT_DIR$/Unit 1/EX1C1/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java</url>
-          <line>131</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
