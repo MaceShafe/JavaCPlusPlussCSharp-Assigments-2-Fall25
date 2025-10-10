@@ -44,6 +44,7 @@ this.dueDate = new GDate (invoice.dueDate);
     public Invoice copy() {
         Invoice invoice = new Invoice(this.status, this.invoiceDate, this.dueDate);
         invoice.invoiceId= this.invoiceId;
+        invoice.lineItems= this.lineItems;
         return invoice;
     }
 
@@ -93,6 +94,22 @@ this.dueDate = new GDate (invoice.dueDate);
         return total;
     }
 
+    public LineItem getLineItem (int index) {
+        return this.lineItems.get(index);
+    };
+
+    public ArrayList<LineItem> getLineItems() {
+        ArrayList<LineItem> lineItems = new ArrayList<>();
+        for (int i=0; i<this.lineItems.size(); i++) {
+            if (i > this.lineItems.size()) {
+                return null;
+            }
+            LineItem lineItem = this.lineItems.get(i);
+            lineItems.add(lineItem);
+        }
+    return lineItems;
+    }
+
     public int getInvoiceId() {
         return invoiceId;
     }
@@ -118,7 +135,11 @@ this.dueDate = new GDate (invoice.dueDate);
                 ", dueDate=" + dueDate +
                 '}';
     }
-
+    public String toShortString() {
+        return Integer.toString(invoiceId) +
+                ", status: " + status +
+                ", " + invoiceDate;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -130,5 +151,17 @@ this.dueDate = new GDate (invoice.dueDate);
     @Override
     public int hashCode() {
         return Objects.hash(getInvoiceId(), getStatus(), getInvoiceDate(), getDueDate());
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public void setInvoiceDate(GDate invoiceDate) {
+        this.invoiceDate = invoiceDate.copy();
+    }
+
+    public void setDueDate(GDate dueDate) {
+        this.dueDate = dueDate.copy();
     }
 }

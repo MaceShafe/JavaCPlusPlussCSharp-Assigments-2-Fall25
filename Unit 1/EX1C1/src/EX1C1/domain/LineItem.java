@@ -1,6 +1,7 @@
 package EX1C1.domain;
 
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class LineItem {
@@ -30,6 +31,8 @@ public class LineItem {
 
     }
 
+
+
     public LineItem copy() {
         return new LineItem(this);
     }
@@ -49,12 +52,11 @@ public class LineItem {
 
     @Override
     public String toString() {
-        return "LineItem{" +
-                "lineItemId=" + lineItemId +
-                ", amount=" + amount +
-                ", description='" + description + '\'' +
-                '}';
+        return description + " " + amount;
+
     }
+
+
 
     @Override
     public boolean equals(Object o) {

@@ -110,7 +110,7 @@ public class GDate {
         int Year = this.year();
         String Month = String.format("%0" + 2 + "d", this.month());
         String Day = String.format("%0" + 2 + "d", this.day());
-        return Year + "." + Month + "." + Day;
+        return Year + "/" + Month + "/" + Day;
     }
 
 

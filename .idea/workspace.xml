@@ -4,32 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C removedg">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/EX1C1.iml" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C Progress">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C/EX1C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/UnitTests/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/UnitTests/domain/GDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/src/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/src/EX1A/domain/GDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/src/EX1A/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B/src/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/EX1B/domain/GDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B/src/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/EX1B/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B/src/EX1B/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/EX1B/domain/GDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/EX1B/domain/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/Test/domain/LineItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/Test/EX1B/domain/LineItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/EX1B1/domain/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/EX1B1/domain/GDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/EX1B1/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/src/domain/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/EX1B1/domain/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/src/EX1B1/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/DbContext2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/GDate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/GDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/Invoice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/domain/LineItem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/ui/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/GDate2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/GDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/Invoice2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/test/domain/LineItem2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/LineItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1A/EX1A.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B/EX1B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B/EX1B.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1B1/EX1B1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/EX1C1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/EX1C1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/GDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/GDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/Test/domain/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/GDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/GDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/domain/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -72,9 +67,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InvoiceApplication.executor": "Debug",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.GDate2Test.executor": "Debug",
@@ -85,8 +81,8 @@
     "JUnit.Invoice2Test.executor": "Run",
     "JUnit.InvoiceTest (1).executor": "Run",
     "JUnit.InvoiceTest.copy.executor": "Run",
-    "JUnit.InvoiceTest.copyConstructor.executor": "Debug",
-    "JUnit.InvoiceTest.executor": "Debug",
+    "JUnit.InvoiceTest.copyConstructor.executor": "Run",
+    "JUnit.InvoiceTest.executor": "Run",
     "JUnit.InvoiceTest2.executor": "Run",
     "JUnit.LineItemTest (1).executor": "Run",
     "JUnit.LineItemTest.equals.executor": "Run",
@@ -96,6 +92,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -114,6 +111,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -149,10 +147,25 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LineItemTest">
+  <component name="RunManager" selected="Application.InvoiceApplication">
+    <configuration name="InvoiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX1C1.ui.InvoiceApplication" />
+      <module name="EX1C1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\SDKs\OpenJFX-25\lib&quot; --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EX1C1.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EX1C1.ui.Main" />
       <module name="EX1C1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\SDKs\OpenJFX-25\lib&quot; --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EX1C1.ui.*" />
@@ -171,8 +184,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EX1C.domain" />
-      <option name="MAIN_CLASS_NAME" value="EX1C.domain.GDateTest" />
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.GDateTest" />
+      <option name="METHOD_NAME" value="copy" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX1C1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.InvoiceTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,6 +218,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
       <option name="MAIN_CLASS_NAME" value="domain.LineItemTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +323,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.InvoiceApplication" />
+      <item itemvalue="JUnit.InvoiceTest" />
+      <item itemvalue="JUnit.GDateTest" />
       <item itemvalue="JUnit.LineItemTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvoiceApplication" />
+        <item itemvalue="JUnit.GDateTest" />
         <item itemvalue="JUnit.LineItemTest" />
+        <item itemvalue="JUnit.InvoiceTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -338,7 +375,17 @@
       <workItem from="1758844261599" duration="5951000" />
       <workItem from="1759264073262" duration="2036000" />
       <workItem from="1759356631240" duration="2560000" />
-      <workItem from="1759430324431" duration="7172000" />
+      <workItem from="1759430324431" duration="9035000" />
+      <workItem from="1759539655640" duration="3298000" />
+      <workItem from="1759590043759" duration="13079000" />
+      <workItem from="1759616769725" duration="2356000" />
+      <workItem from="1759621203300" duration="951000" />
+      <workItem from="1759622790330" duration="1319000" />
+      <workItem from="1759791453560" duration="5576000" />
+      <workItem from="1759863893268" duration="3220000" />
+      <workItem from="1759871131497" duration="12608000" />
+      <workItem from="1759959843029" duration="4544000" />
+      <workItem from="1760039577879" duration="15810000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -428,11 +475,30 @@
       <option name="project" value="LOCAL" />
       <updated>1758843027627</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="EX1C remade, files changed to have more clarity">
+      <option name="closed" value="true" />
+      <created>1759443430789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759443430789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EX1A first commit" />
@@ -445,7 +511,9 @@
     <MESSAGE value="EX1B FINISHED" />
     <MESSAGE value="EX1C Began, error occurring" />
     <MESSAGE value="EX1C removedg" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1C removedg" />
+    <MESSAGE value="EX1C remade, files changed to have more clarity" />
+    <MESSAGE value="EX1C Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1C Progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,7 +528,16 @@
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit 1/EX1C1/src/EX1C1/ui/InvoiceController.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

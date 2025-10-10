@@ -5,6 +5,8 @@ import EX1C1.domain.GDate;
 import EX1C1.domain.Invoice;
 import EX1C1.domain.LineItem;
 
+import java.util.ArrayList;
+
 public class Main {
         public static void main(String[] args) {
 
@@ -44,5 +46,28 @@ public class Main {
 
             invoice5.removeLineItem(lineItem5);
             System.out.println("Removed line Item 5, now it should be " + invoice5.total());
+
+            invoice1.addLineItem(new LineItem(1.0, "description1"));
+            invoice1.addLineItem(new LineItem(2.0, "description2"));
+            invoice1.addLineItem(new LineItem(3.0, "description3"));
+            invoice1.addLineItem(new LineItem(4.0, "description4"));
+
+            System.out.println("Invoice 1 = " + invoice1);
+            ArrayList<LineItem> lineItems = invoice1.getLineItems();
+            for(int i=0; i<lineItems.size(); i++){
+                System.out.println("\tlineItem"+ i + "="+ lineItems.get(i));
+            }
+            System.out.println("\tinvoice1.total() = " + invoice1.total());
+            System.out.println("invoice2.total() = " + invoice2.total());
+
+            invoice5 = invoice1.copy();
+            System.out.println("invoice 5=" + invoice5);
+            lineItems= invoice5.getLineItems();
+            for(int i=0; i<lineItems.size(); i++){
+                System.out.println("\tlineItem"+ i + "="+ lineItems.get(i));
+            }
+
+
+            System.out.println("\tinvoice5.total() = " + invoice5.total());
         }
 }
