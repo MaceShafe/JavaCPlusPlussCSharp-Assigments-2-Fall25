@@ -1,10 +1,12 @@
-package EX1D1.ui;
+package Main.ui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.util.Objects;
 
 public class ApartmentApplication extends Application {
 
@@ -14,12 +16,12 @@ public class ApartmentApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource(
-                "src/EX1D1/ui/ApartmentView.fxml"));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
+                "/Main/ui/ApartmentView.fxml")));
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("EX1D Apartment");
+        primaryStage.setTitle("EX1E Apartment");
         primaryStage.show();
     }
 }

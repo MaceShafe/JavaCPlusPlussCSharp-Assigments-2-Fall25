@@ -4,29 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1C Finished (Finally)">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/EX1D1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/Test/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/Test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/Test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/Test/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/ApartmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/ApartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/ApartmentView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/InvoiceView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/Main.java" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1D Finished">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/EX1E1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/Test/domain/ApartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/Test/domain/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/Test/domain/LineItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/Test/domain/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/domain/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/ApartmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/ApartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/ApartmentView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/InvoiceView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E1/EX1E1/src/Main/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/EX1E2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/domain/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/ApartmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/ApartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/ApartmentView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/InvoiceView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX1E2/EX1E2/src/Main/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/ApartmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX1D1/src/EX1D1/ui/ApartmentApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +84,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApartmentApplication.executor": "Run",
+    "Application.EX1E1.ui.ApartmentApplication.executor": "Run",
     "Application.InvoiceApplication.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.resources.ui.ApartmentApplication.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in EX1D1.executor": "Run",
+    "JUnit.ApartmentTest and 3 more.executor": "Run",
     "JUnit.ApartmentTest.executor": "Run",
     "JUnit.GDate2Test.executor": "Debug",
     "JUnit.GDateTest (1).executor": "Run",
@@ -110,7 +125,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX1D1/src/EX1D1/ui",
+    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX1E2/EX1E2/src/Main/ui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +135,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -129,11 +144,11 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1D1\src\EX1D1\ui" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1D1\Test" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1D1\src" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C1\Test\EX1C\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1C1\src\EX1C1\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1E2\EX1E2\src\Main\ui" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1E2\EX1E2\src\Main\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1E1\EX1E1\src\EX1E1\ui" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1E1\EX1E1\src\EX1E1\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX1E1\EX1E1\Test\domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25" />
@@ -157,14 +172,14 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApartmentApplication">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ApartmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX1D1.ui.ApartmentApplication" />
-      <module name="EX1D1" />
+      <option name="MAIN_CLASS_NAME" value="Main.ui.ApartmentApplication" />
+      <module name="EX1E1" />
       <option name="VM_PARAMETERS" value="--module-path D:\SDKs\OpenJFX-25\lib --add-modules=javafx.controls,javafx.fxml --enable-native-access=javafx.graphics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX1D1.ui.*" />
+          <option name="PATTERN" value="Main.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,8 +188,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX1D1.ui.Main" />
-      <module name="EX1D1" />
+      <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
+      <module name="EX1E1" />
       <option name="VM_PARAMETERS" value="--module-path D:\SDKs\OpenJFX-25\lib --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
@@ -186,23 +201,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX1D1" />
+    <configuration name="Main.ui.ApartmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.ui.ApartmentApplication" />
+      <module name="EX1E1" />
+      <option name="VM_PARAMETERS" value="--module-path D:\SDKs\OpenJFX-25\lib --add-modules=javafx.controls,javafx.fxml --enable-native-access=javafx.graphics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="resources.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.ApartmentTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX1D1" />
+    <configuration name="ApartmentTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <patterns>
+        <pattern testClass="domain.ApartmentTest" />
+        <pattern testClass="domain.InvoiceTest" />
+        <pattern testClass="domain.LineItemTest" />
+        <pattern testClass="domain.PersonTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX1E1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domain.*" />
@@ -210,7 +241,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.InvoiceTest" />
+      <option name="MAIN_CLASS_NAME" value="domain.LineItemTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,17 +346,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.ApartmentApplication" />
-      <item itemvalue="JUnit.ApartmentTest" />
-      <item itemvalue="JUnit.InvoiceTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ApartmentTest and 3 more" />
+      <item itemvalue="JUnit.LineItemTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApartmentApplication" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ApartmentTest" />
-        <item itemvalue="JUnit.InvoiceTest" />
+        <item itemvalue="Application.ApartmentApplication" />
+        <item itemvalue="Application.ApartmentApplication" />
+        <item itemvalue="Application.ApartmentApplication" />
+        <item itemvalue="JUnit.ApartmentTest and 3 more" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +415,9 @@
       <workItem from="1760393627085" duration="15659000" />
       <workItem from="1760471336946" duration="638000" />
       <workItem from="1760472017632" duration="9529000" />
-      <workItem from="1760557965216" duration="36527000" />
+      <workItem from="1760557965216" duration="37408000" />
+      <workItem from="1760733225921" duration="5245000" />
+      <workItem from="1760738564453" duration="38552000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -496,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760124773595</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="EX1D Finished">
+      <option name="closed" value="true" />
+      <created>1760686591434</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760686591434</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +570,8 @@
     <MESSAGE value="EX1C remade, files changed to have more clarity" />
     <MESSAGE value="EX1C Progress" />
     <MESSAGE value="EX1C Finished (Finally)" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1C Finished (Finally)" />
+    <MESSAGE value="EX1D Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX1D Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
