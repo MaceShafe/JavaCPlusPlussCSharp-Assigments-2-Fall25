@@ -153,8 +153,8 @@ public class Invoice
     public String toString() {
         DateTimeFormatter ymdFormat = DateTimeFormatter.ofPattern("yyyy/MM/dd");
 
-        return invoiceId +
-                ", status: " + status +
+        return
+                "status: " + status +
                 ", " + invoiceDate.format(ymdFormat);
     }
 

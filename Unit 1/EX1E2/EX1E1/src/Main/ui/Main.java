@@ -12,5 +12,6 @@ public class Main {
             for (Invoice invoice : invoices) {
                 System.out.println(invoice.toString());
             }
+
         }
 }
