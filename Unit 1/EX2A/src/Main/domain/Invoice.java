@@ -180,10 +180,10 @@ public class Invoice
                 this.dueDate.equals(invoice.dueDate);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getInvoiceId(), getStatus(), getInvoiceDate(), getDueDate());
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(getInvoiceId(), getStatus(), getInvoiceDate(), getDueDate());
+//    }
 
     public void test() {
 //        Invoice invoice = new Invoice(status, invoiceDate, dueDate, apartment);

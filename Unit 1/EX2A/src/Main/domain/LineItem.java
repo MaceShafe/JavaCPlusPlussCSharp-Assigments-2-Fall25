@@ -67,8 +67,8 @@ public class LineItem {
                 Objects.equals(getDescription(), lineItem.getDescription());
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getLineItemId(), getAmount(), getDescription());
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(getLineItemId(), getAmount(), getDescription());
+//    }
 }
