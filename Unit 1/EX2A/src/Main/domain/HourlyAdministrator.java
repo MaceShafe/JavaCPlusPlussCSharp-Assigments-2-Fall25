@@ -17,26 +17,30 @@ private ArrayList<TimeCard> timeCards = new ArrayList<>();
         timeCards.add(new TimeCard(startDate,endDate));
         }
 
-    public void removeTimeCard(int index) {
+    public TimeCard removeTimeCard(int index) {
         TimeCard timeCard = null;
-        if(index >= 0) {
-            timeCard = timeCards.get(index);
-            timeCards.remove(index);
-        }
-
+        try {
+            if (index >= 0) {
+                timeCard = timeCards.get(index);
+                timeCards.remove(index);
+            }
+        } catch (IndexOutOfBoundsException e) {}
+        return timeCard;
     }
 
     public TimeCard getTimeCard(int index) {
 
         TimeCard timeCard = null;
-        if(index >= 0) {
-            timeCard = timeCards.get(index);
-        }
-
+        try {
+            if (index >= 0) {
+                timeCard = timeCards.get(index);
+            }
+        } catch (IndexOutOfBoundsException e) {}
         return  timeCard;
     }
 
-    public ArrayList<TimeCard> getTimeCards() {
+
+        public ArrayList<TimeCard> getTimeCards() {
         return timeCards;
     }
 
