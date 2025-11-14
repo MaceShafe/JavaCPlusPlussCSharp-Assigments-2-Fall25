@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX1E Finished">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2A Finished">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2B/EX2B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2B/sketch_nov4a/sketch_nov4a.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2A/EX2A.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2A/EX2A.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2A/Test/Main/domain/HourlyAdministratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2A/Test/Main/domain/HourlyAdministratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2A/src/Main/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2A/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,71 +53,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ApartmentApplication.executor": "Run",
-    "Application.EX1E1.ui.ApartmentApplication.executor": "Run",
-    "Application.InvoiceApplication.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.resources.ui.ApartmentApplication.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.All in EX1D1.executor": "Run",
-    "JUnit.ApartmentTest and 3 more (1).executor": "Run",
-    "JUnit.ApartmentTest and 3 more.executor": "Run",
-    "JUnit.ApartmentTest.executor": "Run",
-    "JUnit.GDate2Test.executor": "Debug",
-    "JUnit.GDateTest (1).executor": "Run",
-    "JUnit.GDateTest (2).executor": "Run",
-    "JUnit.GDateTest.executor": "Run",
-    "JUnit.GDateTest.testYMDConstructor.executor": "Debug",
-    "JUnit.HourlyAdministratorTest.addTimeCard.executor": "Run",
-    "JUnit.HourlyAdministratorTest.executor": "Run",
-    "JUnit.HourlyAdministratorTest.getTimeCard.executor": "Run",
-    "JUnit.HourlyAdministratorTest.getTimeCards.executor": "Run",
-    "JUnit.HourlyAdministratorTest.removeTimeCard.executor": "Run",
-    "JUnit.HourlyAdministratorTest.testToString.executor": "Run",
-    "JUnit.Invoice2Test.executor": "Run",
-    "JUnit.InvoiceTest (1).executor": "Run",
-    "JUnit.InvoiceTest.copy.executor": "Run",
-    "JUnit.InvoiceTest.copyConstructor.executor": "Run",
-    "JUnit.InvoiceTest.executor": "Run",
-    "JUnit.InvoiceTest2.executor": "Run",
-    "JUnit.LineItemTest (1).executor": "Run",
-    "JUnit.LineItemTest.equals.executor": "Run",
-    "JUnit.LineItemTest.executor": "Run",
-    "JUnit.LineItemTest.testConstructor.executor": "Run",
-    "JUnit.PersonTest.executor": "Run",
-    "JUnit.domain in EX1D1.executor": "Debug",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2A/Test/Main/domain",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApartmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX1E1.ui.ApartmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvoiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.resources.ui.ApartmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.All in EX1D1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApartmentTest and 3 more (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApartmentTest and 3 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApartmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GDate2Test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.GDateTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GDateTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GDateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GDateTest.testYMDConstructor.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HourlyAdministratorTest.addTimeCard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HourlyAdministratorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HourlyAdministratorTest.getTimeCard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HourlyAdministratorTest.getTimeCards.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HourlyAdministratorTest.removeTimeCard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HourlyAdministratorTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Invoice2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceTest.copy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceTest.copyConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LineItemTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LineItemTest.equals.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LineItemTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LineItemTest.testConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.domain in EX1D1.executor&quot;: &quot;Debug&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2A/Test/Main/domain&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="domain" />
@@ -356,6 +355,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.ApartmentTest and 3 more" />
       <item itemvalue="JUnit.HourlyAdministratorTest" />
       <item itemvalue="JUnit.HourlyAdministratorTest.getTimeCard" />
       <item itemvalue="JUnit.HourlyAdministratorTest.getTimeCards" />
@@ -434,7 +434,10 @@
       <workItem from="1761690405664" duration="7569000" />
       <workItem from="1761775384623" duration="11979000" />
       <workItem from="1761856212337" duration="20805000" />
-      <workItem from="1762032141095" duration="10578000" />
+      <workItem from="1762032141095" duration="11696000" />
+      <workItem from="1762296721183" duration="1333000" />
+      <workItem from="1762719250192" duration="5303000" />
+      <workItem from="1763158145813" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -564,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760920864953</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="EX2A Finished">
+      <option name="closed" value="true" />
+      <created>1762050597454</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762050597454</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +608,8 @@
     <MESSAGE value="EX1C Finished (Finally)" />
     <MESSAGE value="EX1D Finished" />
     <MESSAGE value="EX1E Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX1E Finished" />
+    <MESSAGE value="EX2A Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2A Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
