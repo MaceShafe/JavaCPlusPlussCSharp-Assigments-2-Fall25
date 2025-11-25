@@ -1,9 +1,0 @@
-{
-    "person": {
-      "personId": 101,
-      "lastName": "Smith",
-      "firstName": "John",
-      "userName": "john.smith"
-
-    }
-}

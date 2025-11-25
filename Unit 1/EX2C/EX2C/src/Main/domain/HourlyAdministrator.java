@@ -15,7 +15,12 @@ private ArrayList<TimeCard> timeCards = new ArrayList<>();
     public void addTimeCard(LocalDateTime startDate, LocalDateTime endDate) {
         new TimeCard(startDate,endDate);
         timeCards.add(new TimeCard(startDate,endDate));
-        }
+    }
+
+    public void addTimeCard(int id, LocalDateTime startDate, LocalDateTime endDate) {
+        new TimeCard(startDate,endDate);
+        timeCards.add(new TimeCard(id, startDate,endDate));
+    }
 
     public TimeCard removeTimeCard(int index) {
         TimeCard timeCard = null;

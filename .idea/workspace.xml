@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2B Finished">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/mortgage-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2C Began">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/resources/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/dataAccess/PeopleJSONParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/mortgage-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/ApartmentAdministration.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/people.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +28,8 @@
         <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Python Script" />
-        <option value="Class" />
         <option value="package.json" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +117,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -169,7 +160,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
-      <module name="mortgage-calculator" />
+      <module name="EX2C" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.ui.*" />
@@ -355,6 +346,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ApartmentTest and 3 more" />
       <item itemvalue="JUnit.HourlyAdministratorTest" />
       <item itemvalue="JUnit.HourlyAdministratorTest.getTimeCards" />
       <item itemvalue="JUnit.HourlyAdministratorTest.removeTimeCard" />
@@ -437,7 +429,13 @@
       <workItem from="1762719250192" duration="5303000" />
       <workItem from="1763158145813" duration="1676000" />
       <workItem from="1763336054776" duration="6911000" />
-      <workItem from="1763421081871" duration="5354000" />
+      <workItem from="1763421081871" duration="7413000" />
+      <workItem from="1763492884746" duration="8313000" />
+      <workItem from="1763509979210" duration="860000" />
+      <workItem from="1763585552611" duration="3857000" />
+      <workItem from="1763658089466" duration="14345000" />
+      <workItem from="1763757779510" duration="7481000" />
+      <workItem from="1764101798628" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -583,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763159152157</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="EX2C Began">
+      <option name="closed" value="true" />
+      <created>1763434900402</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1763434900402</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +624,8 @@
     <MESSAGE value="EX1E Finished" />
     <MESSAGE value="EX2A Finished" />
     <MESSAGE value="EX2B Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX2B Finished" />
+    <MESSAGE value="EX2C Began" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2C Began" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
