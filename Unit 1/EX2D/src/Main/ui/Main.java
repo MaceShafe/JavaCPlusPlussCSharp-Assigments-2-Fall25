@@ -1,9 +1,9 @@
 package Main.ui;
 
 import Main.dataAccess.PeopleJSONParser;
-import Main.domain.*;
-import org.json.JSONArray;
-import org.json.JSONObject;
+import Main.domain.HourlyAdministrator;
+import Main.domain.Person;
+import Main.domain.TimeCard;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -67,8 +67,13 @@ public class Main {
                 }
             }
         }
+
+        System.out.println("\nExceptions: ");
+        ArrayList<Exception> exceptions = PeopleJSONParser.getExceptions();
+        for(Exception e :exceptions){
+            String msg = e.toString();
+            if(e.getCause() != null) msg += "\n\t"+e.getCause();
+            System.out.println(msg);
+        }
     }
-
-
-
 }

@@ -4,16 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2C Began">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/resources/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/dataAccess/PeopleJSONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2C Finished">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/EX2D.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/resources/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/dataAccess/PeopleJSONParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/ContractAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/TimeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/ApartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/ContractAdministratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/HourlyAdministratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/LineItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/TenantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/TimeCardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/mortgage-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/ApartmentAdministration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/people.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +89,9 @@
     &quot;JUnit.All in EX1D1.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ApartmentTest and 3 more (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ApartmentTest and 3 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApartmentTest and 7 more.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ApartmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractAdministratorTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.GDate2Test.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.GDateTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.GDateTest (2).executor&quot;: &quot;Run&quot;,
@@ -110,7 +128,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2C/EX2C/src/Main/domain&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2D/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -129,11 +147,11 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2D\resources" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2D\src\Main\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2C\EX2C\src\Main\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\Test\Main\domain" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\src\Main\ui" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\src\Main\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\Test\Main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25" />
@@ -152,12 +170,27 @@
       <recent name="domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Main.ui" />
+      <recent name="Main.dataAccess" />
       <recent name="" />
       <recent name="EX1C1.ui" />
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
+      <module name="EX2D" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
       <module name="EX2C" />
@@ -171,21 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApartmentTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2A" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="Main.domain.ApartmentTest" />
-        <pattern testClass="Main.domain.InvoiceTest" />
-        <pattern testClass="Main.domain.LineItemTest" />
-        <pattern testClass="Main.domain.PersonTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HourlyAdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2A" />
+    <configuration name="ApartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2D" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.domain.*" />
@@ -193,14 +213,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.HourlyAdministratorTest" />
+      <option name="MAIN_CLASS_NAME" value="Main.domain.ApartmentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HourlyAdministratorTest.getTimeCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2A" />
+    <configuration name="ContractAdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2D" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.domain.*" />
@@ -208,15 +228,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.HourlyAdministratorTest" />
-      <option name="METHOD_NAME" value="getTimeCards" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Main.domain.ContractAdministratorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HourlyAdministratorTest.removeTimeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2A" />
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2D" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.domain.*" />
@@ -224,25 +243,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.HourlyAdministratorTest" />
-      <option name="METHOD_NAME" value="removeTimeCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HourlyAdministratorTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2A" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.HourlyAdministratorTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Main.domain.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,20 +347,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ApartmentTest and 3 more" />
-      <item itemvalue="JUnit.HourlyAdministratorTest" />
-      <item itemvalue="JUnit.HourlyAdministratorTest.getTimeCards" />
-      <item itemvalue="JUnit.HourlyAdministratorTest.removeTimeCard" />
-      <item itemvalue="JUnit.HourlyAdministratorTest.testToString" />
+      <item itemvalue="JUnit.ApartmentTest" />
+      <item itemvalue="JUnit.ContractAdministratorTest" />
+      <item itemvalue="JUnit.PersonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.ApartmentTest" />
+        <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HourlyAdministratorTest" />
-        <item itemvalue="JUnit.HourlyAdministratorTest.testToString" />
-        <item itemvalue="JUnit.HourlyAdministratorTest.getTimeCards" />
-        <item itemvalue="JUnit.HourlyAdministratorTest.removeTimeCard" />
+        <item itemvalue="JUnit.ContractAdministratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +436,8 @@
       <workItem from="1763585552611" duration="3857000" />
       <workItem from="1763658089466" duration="14345000" />
       <workItem from="1763757779510" duration="7481000" />
-      <workItem from="1764101798628" duration="2119000" />
+      <workItem from="1764101798628" duration="33956000" />
+      <workItem from="1764456576623" duration="7067000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -589,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763434900402</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="EX2C Finished">
+      <option name="closed" value="true" />
+      <created>1764105052869</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764105052869</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +635,8 @@
     <MESSAGE value="EX2A Finished" />
     <MESSAGE value="EX2B Finished" />
     <MESSAGE value="EX2C Began" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX2C Began" />
+    <MESSAGE value="EX2C Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2C Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
