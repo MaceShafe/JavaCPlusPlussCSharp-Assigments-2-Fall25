@@ -4,33 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2C Finished">
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/EX2D.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/resources/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/dataAccess/PeopleJSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/src/Main/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/ContractAdministratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/HourlyAdministratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/TenantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 1/EX2D/test/Main/domain/TimeCardTest.java" afterDir="false" />
+    <list default="true" id="5da3c8b2-3220-41e0-8c25-d440222365ba" name="Changes" comment="EX2D Finished">
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/EX2E1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/resources/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/Exceptions/PersonIllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/Exceptions/TimeCardIllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/dataAccess/PeopleJSONParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/ContractAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/HourlyAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/JSONStringifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/domain/TimeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/src/Main/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/ApartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/ContractAdministratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/HourlyAdministratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/LineItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/TenantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/TimeCardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/EX2C.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2C/EX2C/src/Main/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 1/EX2D/EX2D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 1/EX2D/EX2D.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +46,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JavaFXApplication" />
-        <option value="Python Script" />
         <option value="package.json" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -71,87 +74,93 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="31ykMoq9OehXbWwPn8MJNoMTan4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ApartmentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EX1E1.ui.ApartmentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InvoiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.resources.ui.ApartmentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.All in EX1D1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApartmentTest and 3 more (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApartmentTest and 3 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApartmentTest and 7 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApartmentTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContractAdministratorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GDate2Test.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.GDateTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GDateTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GDateTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GDateTest.testYMDConstructor.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.HourlyAdministratorTest.addTimeCard.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HourlyAdministratorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HourlyAdministratorTest.getTimeCard.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HourlyAdministratorTest.getTimeCards.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HourlyAdministratorTest.removeTimeCard.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HourlyAdministratorTest.testToString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Invoice2Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InvoiceTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InvoiceTest.copy.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InvoiceTest.copyConstructor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InvoiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InvoiceTest2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineItemTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineItemTest.equals.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineItemTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineItemTest.testConstructor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.domain in EX1D1.executor&quot;: &quot;Debug&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2D/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApartmentApplication.executor": "Run",
+    "Application.EX1E1.ui.ApartmentApplication.executor": "Run",
+    "Application.InvoiceApplication.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.resources.ui.ApartmentApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in EX1D1.executor": "Run",
+    "JUnit.ApartmentTest and 3 more (1).executor": "Run",
+    "JUnit.ApartmentTest and 3 more.executor": "Run",
+    "JUnit.ApartmentTest and 7 more.executor": "Run",
+    "JUnit.ApartmentTest.executor": "Run",
+    "JUnit.ContractAdministratorTest.executor": "Run",
+    "JUnit.GDate2Test.executor": "Debug",
+    "JUnit.GDateTest (1).executor": "Run",
+    "JUnit.GDateTest (2).executor": "Run",
+    "JUnit.GDateTest.executor": "Run",
+    "JUnit.GDateTest.testYMDConstructor.executor": "Debug",
+    "JUnit.HourlyAdministratorTest.addTimeCard.executor": "Run",
+    "JUnit.HourlyAdministratorTest.executor": "Run",
+    "JUnit.HourlyAdministratorTest.getTimeCard.executor": "Run",
+    "JUnit.HourlyAdministratorTest.getTimeCards.executor": "Run",
+    "JUnit.HourlyAdministratorTest.jsonStringifyTest.executor": "Run",
+    "JUnit.HourlyAdministratorTest.removeTimeCard.executor": "Run",
+    "JUnit.HourlyAdministratorTest.testToString.executor": "Run",
+    "JUnit.Invoice2Test.executor": "Run",
+    "JUnit.InvoiceTest (1).executor": "Run",
+    "JUnit.InvoiceTest.copy.executor": "Run",
+    "JUnit.InvoiceTest.copyConstructor.executor": "Run",
+    "JUnit.InvoiceTest.executor": "Run",
+    "JUnit.InvoiceTest2.executor": "Run",
+    "JUnit.LineItemTest (1).executor": "Run",
+    "JUnit.LineItemTest.equals.executor": "Run",
+    "JUnit.LineItemTest.executor": "Run",
+    "JUnit.LineItemTest.testConstructor.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
+    "JUnit.TimeCardTest.executor": "Run",
+    "JUnit.TimeCardTest.jsonStringifyTest.executor": "Run",
+    "JUnit.domain in EX1D1.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/Unit 1/EX2E/EX2E1/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Users/Mason/IdeaProjects/JavaCPlusPlussCSharp-Assigments-2-Fall25/EX1C1/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2E\EX2E1\test" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2E\EX2E1\src\Main\ui" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2E\EX2E1\src\Main\domain" />
+      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2E\EX2E1\resources" />
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2D\resources" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2D\src\Main\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2C\EX2C\src\Main\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\Test\Main\domain" />
-      <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25\Unit 1\EX2A\src\Main\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Mason\IdeaProjects\JavaCPlusPlussCSharp-Assigments-2-Fall25" />
@@ -177,7 +186,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.HourlyAdministratorTest.jsonStringifyTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
       <module name="EX2D" />
@@ -191,9 +200,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ui.Main" />
-      <module name="EX2C" />
+      <module name="EX2E1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.ui.*" />
@@ -204,47 +213,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2D" />
+    <configuration name="HourlyAdministratorTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2E1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.domain.*" />
+          <option name="PATTERN" value="main.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.ApartmentTest" />
+      <option name="PACKAGE_NAME" value="main.domain" />
+      <option name="MAIN_CLASS_NAME" value="main.domain.HourlyAdministratorTest" />
+      <option name="METHOD_NAME" value="jsonStringifyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2E1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.domain" />
+      <option name="MAIN_CLASS_NAME" value="main.domain.TimeCardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContractAdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2D" />
+    <configuration name="TimeCardTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EX2E1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.domain.*" />
+          <option name="PATTERN" value="main.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.ContractAdministratorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EX2D" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Main.domain" />
-      <option name="MAIN_CLASS_NAME" value="Main.domain.PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="main.domain" />
+      <option name="MAIN_CLASS_NAME" value="main.domain.TimeCardTest" />
+      <option name="METHOD_NAME" value="jsonStringifyTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,19 +358,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ApartmentTest" />
-      <item itemvalue="JUnit.ContractAdministratorTest" />
-      <item itemvalue="JUnit.PersonTest" />
+      <item itemvalue="JUnit.HourlyAdministratorTest.jsonStringifyTest" />
+      <item itemvalue="JUnit.TimeCardTest.jsonStringifyTest" />
+      <item itemvalue="JUnit.TimeCardTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HourlyAdministratorTest.jsonStringifyTest" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.TimeCardTest.jsonStringifyTest" />
+        <item itemvalue="JUnit.TimeCardTest" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.ApartmentTest" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ContractAdministratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +448,13 @@
       <workItem from="1763658089466" duration="14345000" />
       <workItem from="1763757779510" duration="7481000" />
       <workItem from="1764101798628" duration="33956000" />
-      <workItem from="1764456576623" duration="7067000" />
+      <workItem from="1764456576623" duration="9913000" />
+      <workItem from="1764697976043" duration="12010000" />
+      <workItem from="1764721653422" duration="2379000" />
+      <workItem from="1764799420660" duration="3433000" />
+      <workItem from="1764876710952" duration="7864000" />
+      <workItem from="1764966328262" duration="14897000" />
+      <workItem from="1765060966883" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="EX1A first commit">
       <option name="closed" value="true" />
@@ -599,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764105052869</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="EX2D Finished">
+      <option name="closed" value="true" />
+      <created>1764480218792</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1764480218792</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +661,8 @@
     <MESSAGE value="EX2B Finished" />
     <MESSAGE value="EX2C Began" />
     <MESSAGE value="EX2C Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX2C Finished" />
+    <MESSAGE value="EX2D Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2D Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,6 +676,15 @@
           <url>file://$PROJECT_DIR$/Unit 1/EX1C1/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Unit 1/EX2E/EX2E1/test/main/domain/HourlyAdministratorTest.java</url>
+          <line>135</line>
+          <properties class="main.domain.HourlyAdministratorTest" method="jsonStringifyTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
