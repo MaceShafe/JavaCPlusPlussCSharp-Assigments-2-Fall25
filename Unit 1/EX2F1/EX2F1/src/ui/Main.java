@@ -21,8 +21,40 @@ public class Main {
         System.out.println("\nMin: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
         index = sensor.findMaxReadingIndex();
         System.out.println("Max: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
-//        for (SensorReading r : sensorReadings) {
-//            System.out.println(r.toString());
-//        }
+
+
+        index = sensor.findMinReadingIndex(24,48);
+        System.out.println("\nMin: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
+        index = sensor.findMaxReadingIndex(24,48);
+        System.out.println("Max: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
+
+        try {
+            index = sensor.findMinReadingIndex(-1, 5000);
+            System.out.println("\nMin: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        try {
+        index = sensor.findMaxReadingIndex(-1,2543);
+        System.out.println("Max: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());}
+        catch (Exception e) {
+            System.out.println(e);
+        }
+
+        index = sensor.findNextCycleMaxIndex(0);
+        System.out.println("First max after index 0: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
+
+        index = sensor.findNextCycleMinIndex(0);
+        System.out.println("First max after index 0: index = " + index + ", " + sensor.getSensorReadings().get(index).toString());
+        int prevIndex = 0;
+        index = sensor.findNextCycleMaxIndex(0);
+        while (index > prevIndex) {
+            prevIndex = index;
+            System.out.println("index = " + index + ", Max: " + sensor.getSensorReadings(index));
+            index = sensor.findNextCycleMinIndex(index);
+            if (index >prevIndex)
+                System.out.println("index = " + index + ", Min: " + sensor.getSensorReadings(index));
+            index=sensor.findNextCycleMaxIndex(index);
+        }
     }
 }

@@ -100,21 +100,42 @@ public class Sensor {
     }
 
     public int findMinReadingIndex() {
-        float prevReadingLowest= 1000; //random high number that sensors should not reach
+        float prevReadingLowest= 1000; //random high number that sensors should never reach
         int minReadingIndex = 0;
         int currentIndex = 0;
+
         for (SensorReading r : sensorReadings) {
             if (r.getValue() < prevReadingLowest) {
                 prevReadingLowest = r.getValue();
                 minReadingIndex = currentIndex;
             }
             currentIndex++;
-
         }
-//        int minReadingIndex = (int) prevReadingLowest;
-
         return minReadingIndex;
     }
+
+    public int findMinReadingIndex(int startIndex, int endIndex) {
+        float prevReadingLowest= 1000; //random high number that sensors should never reach
+        int minReadingIndex = 0;
+        int currentIndex = startIndex;
+        if (endIndex > sensorReadings.size() || startIndex <= 0 ||startIndex > endIndex) {
+            throw new IndexOutOfBoundsException("Index out of bounds");
+        } else {
+        for (SensorReading r : sensorReadings) {
+            if (r.getValue() < prevReadingLowest) {
+                if (currentIndex >= endIndex) {
+                    break;
+                } else {
+                prevReadingLowest = r.getValue();
+                minReadingIndex = currentIndex;
+                }
+            }
+            currentIndex++;
+        }
+        return minReadingIndex;
+        }
+    }
+
     public int findMaxReadingIndex() {
         float prevReadingHighest= 0;
         int maxReadingIndex = 0;
@@ -131,4 +152,65 @@ public class Sensor {
 //        int maxReadingIndex = (int) prevReadingHighest;
         return maxReadingIndex;
     }
+
+    public int findMaxReadingIndex(int startIndex, int endIndex) {
+
+        float prevReadingHighest= 0;
+        int maxReadingIndex = 0;
+        int currentIndex = startIndex;
+        if (endIndex > sensorReadings.size() || startIndex <= 0 ||startIndex > endIndex) {
+            throw new IndexOutOfBoundsException("Index out of bounds");
+        } else {
+            for (SensorReading r : sensorReadings) {
+                if (r.getValue() > prevReadingHighest) {
+                    if (currentIndex >= endIndex) {
+                        break;
+                    } else {
+                        prevReadingHighest = r.getValue();
+                        maxReadingIndex = currentIndex;
+                    }
+                }
+                currentIndex++;
+
+            }
+//        int maxReadingIndex = (int) prevReadingHighest;
+            return maxReadingIndex;
+        }
+    }
+
+    public int findNextCycleMaxIndex(int startIndex) {
+        SensorReading rMax = this.sensorReadings.get(startIndex);
+        int i = startIndex +1;
+
+        for (; i < this.sensorReadings.size(); i++) {
+            if (rMax.getValue() < this.sensorReadings.get(i).getValue()) {
+                rMax = this.sensorReadings.get(i);
+            }
+            else {
+                break;
+            }
+        }
+        return i-1;
+    }
+
+    public int findNextCycleMinIndex(int startIndex) {
+        SensorReading rMin = this.sensorReadings.get(startIndex);
+        int i = startIndex +1;
+
+        for (; i < this.sensorReadings.size(); i++) {
+            if (rMin.getValue() > this.sensorReadings.get(i).getValue()) {
+                rMin = this.sensorReadings.get(i);
+            }
+            else {
+                break;
+            }
+        }
+        return i-1;
+    }
+
+    public SensorReading getSensorReadings(int index) {
+        return this.sensorReadings.get(index);
+    }
+
+
 }

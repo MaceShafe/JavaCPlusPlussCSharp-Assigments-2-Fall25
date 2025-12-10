@@ -2,18 +2,20 @@ package domain;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class SensorTest {
     Sensor sensor;
 
-    @BeforeEach
+    @BeforeAll
     void setUp() {
 
 
@@ -45,11 +47,68 @@ class SensorTest {
 assertEquals(index, 40);
     }
 
+
     @Test
     void findMaxReadingIndex() {
         int index = this.sensor.findMaxReadingIndex();
 assertEquals(index, 68);
 
+    }
+
+    @Test
+    void findMinReadingIndexBetweenTwoPoints() {
+        int index = this.sensor.findMinReadingIndex(3,7);
+    assertEquals(index, 3);
+    }
+
+    @Test
+    void findMaxReadingIndexBetwenTwoPoints() {
+        int index = this.sensor.findMaxReadingIndex(3,7);
+        assertEquals(index, 6);
+    }
+
+    @Test
+    void MinReadingIndexNegativeOutOfBoundsException() {
+
+        assertThrows(IndexOutOfBoundsException.class, () -> this.sensor.findMinReadingIndex(-5,7));
+    }
+
+    @Test
+    void MinReadingIndexOutOfBoundsException() {
+
+        assertThrows(IndexOutOfBoundsException.class, () -> this.sensor.findMinReadingIndex(5,700));
+    }
+
+    @Test
+    void MaxReadingIndexNegativeOutOfBoundsException() {
+        assertThrows(IndexOutOfBoundsException.class, () ->  this.sensor.findMaxReadingIndex(-5,7));
+    }
+
+    @Test
+    void MaxReadingIndexOutOfBoundsException() {
+        assertThrows(IndexOutOfBoundsException.class, () -> this.sensor.findMinReadingIndex(5,700));
+    }
+
+    @Test
+    void MaxReadingIndexLowestBiggerThanHighest() {
+        assertThrows(IndexOutOfBoundsException.class, () -> this.sensor.findMaxReadingIndex(35,0));
+
+    }
+
+    @Test
+    void MinReadingIndexLowestBiggerThanHighest() {
+        assertThrows(IndexOutOfBoundsException.class, () -> this.sensor.findMinReadingIndex(35,0));
+
+    }
+
+    @Test
+    void FindCycleMaxIndex() {
+        assertEquals(this.sensor.findNextCycleMaxIndex(0), 5);
+    }
+
+    @Test
+    void FindCycleMinIndex() {
+        assertEquals(this.sensor.findNextCycleMinIndex(5), 8);
     }
 
     private String json = "{\n" +
